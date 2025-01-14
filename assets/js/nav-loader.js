@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Göreceli yol kullanıyoruz
-    const navPath = window.location.pathname === '/' ? 
-        'components/navbar.html' : 
-        '../components/navbar.html';
-
-    fetch(navPath)
+    fetch('/components/navbar.html')
         .then(response => response.text())
         .then(data => {
             document.body.insertAdjacentHTML('afterbegin', data);
