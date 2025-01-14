@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - QuRoute</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <script src="../assets/js/nav-loader.js"></script>
+    <main>
+        <header class="page-header">
+            <div class="container">
+                <h1>Blog</h1>
+                <p>Kuantum teknolojisi ve lojistik dünyasından en son gelişmeler</p>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Makale</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Okuyucu</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2x</span>
+                        <span class="stat-label">Haftalık İçerik</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-filters">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Blog yazılarında ara...">
+                    </div>
+                    <div class="category-filters">
+                        <div class="filter-wrapper">
+                            <button class="filter-btn active">Tümü</button>
+                            <button class="filter-btn">Kuantum Teknolojisi</button>
+                            <button class="filter-btn">Lojistik</button>
+                            <button class="filter-btn">Yapay Zeka</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-grid">
+                    <!-- Kuantum Blog Post -->
+                    <article class="blog-card animate-card">
+                        <div class="blog-image">
+                            <img src="../assets/images/blog/quantum-computing.jpg" alt="Kuantum Bilgisayarlar">
+                            <div class="blog-category">Kuantum Teknolojisi</div>
+                        </div>
+                        <div class="blog-content">
+                            <h2>Kuantum Bilgisayarların Lojistik Sektörüne Etkileri</h2>
+                            <p>Kuantum bilgisayarların rota optimizasyonunda sağladığı avantajlar ve gelecekteki potansiyel uygulamalar...</p>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 15 Mart 2024</span>
+                                <span><i class="far fa-clock"></i> 5 dk okuma</span>
+                            </div>
+                            <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Lojistik Blog Post -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="../assets/images/blog/logistics-future.jpg" alt="Lojistiğin Geleceği">
+                            <div class="blog-category">Lojistik</div>
+                        </div>
+                        <div class="blog-content">
+                            <h2>2024'te Lojistik Sektöründeki Teknolojik Gelişmeler</h2>
+                            <p>Yapay zeka ve kuantum teknolojilerinin lojistik sektöründe yarattığı dönüşüm...</p>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 10 Mart 2024</span>
+                                <span><i class="far fa-clock"></i> 4 dk okuma</span>
+                            </div>
+                            <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- AI Blog Post -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="../assets/images/blog/ai-logistics.jpg" alt="AI in Logistics">
+                            <div class="blog-category">Yapay Zeka</div>
+                        </div>
+                        <div class="blog-content">
+                            <h2>Yapay Zeka ve Kuantum Bilgisayarların Sinerjisi</h2>
+                            <p>Yapay zeka ve kuantum bilgisayarların birlikte kullanımının sağladığı faydalar...</p>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 5 Mart 2024</span>
+                                <span><i class="far fa-clock"></i> 6 dk okuma</span>
+                            </div>
+                            <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="page-nav"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="page-number active">1</a>
+                    <a href="#" class="page-number">2</a>
+                    <a href="#" class="page-number">3</a>
+                    <span class="page-dots">...</span>
+                    <a href="#" class="page-number">8</a>
+                    <a href="#" class="page-nav"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-wrapper">
+                    <div class="newsletter-content">
+                        <h2>Güncel Kalın</h2>
+                        <p>En son gelişmelerden ilk siz haberdar olun!</p>
+                        <form class="newsletter-form">
+                            <div class="newsletter-input-group">
+                                <div class="form-group">
+                                    <div class="input-icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <input type="email" placeholder="E-posta adresiniz" required>
+                                </div>
+                                <button type="submit" class="submit-btn">
+                                    Abone Ol <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../assets/js/blog.js"></script>
+    <script src="../assets/js/footer-loader.js"></script>
+</body>
+</html> 
